@@ -94,3 +94,13 @@ Vitest UI is installed if you would prefer to see your tests in a dashboard on y
 This can be done with the `npm run testui`
 
 This will automatically open a browser window with the test dashboard.
+
+## Additional Packages
+
+___
+
+List of packages that could be useful for your project
+
+- Zod - typescript schema validation library
+
+- MSW (Mock service worker) - setting up a mock server for testing
