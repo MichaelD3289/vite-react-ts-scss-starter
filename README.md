@@ -95,6 +95,10 @@ This can be done with the `npm run testui`
 
 This will automatically open a browser window with the test dashboard.
 
+A test coverage report can be ran using `npm run coverage`
+
+An html report will be created in tests/unit/coverage.
+
 ## Additional Packages
 
 ___
