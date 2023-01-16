@@ -22,5 +22,8 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 0,
     'import/prefer-default-export': 0,
+    'jsx-a11y/label-has-associated-control': ['error', { assert: 'either' }],
+    'react/jsx-props-no-spreading': 0,
+    '@typescript-eslint/no-use-before-define': 0,
   },
 };

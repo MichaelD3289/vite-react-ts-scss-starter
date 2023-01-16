@@ -78,7 +78,7 @@ BrowserRouter is used by default to wrap App, but this can easily be swapped out
 
 ---
 
-Unit testing is handled with vitest and testing library.
+Unit testing is handled with vitest and react testing library.
 
 A setupTests.ts file is in the src folder. This file runs before all tests.
 
@@ -97,7 +97,7 @@ This will automatically open a browser window with the test dashboard.
 
 A test coverage report can be ran using `npm run coverage`
 
-An html report will be created in tests/unit/coverage.
+An html report will be created in testcoverage/unit/.
 
 ## Additional Packages
 
@@ -108,3 +108,7 @@ List of packages that could be useful for your project
 - Zod - typescript schema validation library
 
 - MSW (Mock service worker) - setting up a mock server for testing
+
+- Tanstack Query - http requests
+
+- react-chartjs-2 - ChartJs react library
